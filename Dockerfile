@@ -14,7 +14,7 @@ ENV PYTHONUNBUFFERED 1
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 RUN pip install pandas
-RUN pip3 install boto3
+RUN pip install boto3
 RUN pip install requests
 RUN pip install openpyxl
 RUN pip install xlrd
